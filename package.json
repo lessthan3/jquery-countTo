@@ -1,0 +1,10 @@
+{
+  "name": "jquery-countTo",
+  "description": "Number counting/animating plugin for javascript",
+  "version": "1.2.0",
+  "author": "Bryant Williams <b.n.williams@gmail.com>",
+  "devDependencies": {
+    "coffee-script":  "1.7.x",
+    "uglify-js": "2.4.x"
+  }
+}
