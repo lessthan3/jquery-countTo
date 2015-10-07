@@ -1,10 +1,14 @@
 {
-  "name": "jquery-countTo",
-  "description": "Number counting/animating plugin for javascript",
-  "version": "1.2.0",
   "author": "Bryant Williams <b.n.williams@gmail.com>",
+  "name": "jquery-count-to",
+  "description": "Number counting/animating plugin for javascript",
   "devDependencies": {
-    "coffee-script":  "1.7.x",
+    "coffee-script": "1.7.x",
     "uglify-js": "2.4.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lessthan3/jquery-countTo.git"
+  },
+  "version": "1.2.1"
 }
