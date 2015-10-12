@@ -2,7 +2,7 @@
 
 jQuery countTo animates countups and countdowns within target DOM elements. 
 
-# Quick Examples
+# Simple Example
 ```html
 <script src="jquery.js"></script>
 <script src="build/jquery-countTo.js"></script>
