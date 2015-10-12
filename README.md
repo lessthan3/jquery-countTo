@@ -32,8 +32,8 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 
 #### Arguments
 
-    - target - The number that will be counted to.
-    - options - *Optional* The object that contains options.
+- target - The number that will be counted to.
+- options - *Optional* The object that contains options.
 
 #### Options
 
