@@ -5,7 +5,7 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 # Simple Example
 ```html
 <script src="jquery.js"></script>
-<script src="build/jquery-countTo.js"></script>
+<script src="build/jquery-countTo.min.js"></script>
 
 <span class="timer-a">0</span>
 <span class="timer-b">0</span>
@@ -29,8 +29,24 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 </script>
 ```
 
+# Usage
+
+1. Include jQuery:
+```html
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+```
+
+2. Include plugin's code:
+```html
+<script src="build/jquery-countTo.min.js"></script>
+```
+
+3. Call the plugin:
+```html
+<script type="text/javascript">
+    $('.my-element').countTo(42);
+</script>
+```
+
 # Requirements
 - jQuery v1.0+
-
-# Installation
-
