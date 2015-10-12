@@ -20,7 +20,7 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 | min_steps | *Integer* Minimum steps that occur during the animation. |
 | max_steps | *Integer* Maximum steps that occur during the animation. |
 
-#### Simple Example
+##### Simple Example
 ```html
 <span class="timer-a">0</span>
 <span class="timer-b">0</span>
