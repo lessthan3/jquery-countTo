@@ -30,7 +30,7 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 ```
 
 # Requirements
-- jQuery v1.3+
+- jQuery v1.0+
 
 # Installation
 
