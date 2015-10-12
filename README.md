@@ -4,9 +4,6 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 
 # Simple Example
 ```html
-<script src="jquery.js"></script>
-<script src="build/jquery-countTo.min.js"></script>
-
 <span class="timer-a">0</span>
 <span class="timer-b">0</span>
 <span class="timer-c">5</span>
