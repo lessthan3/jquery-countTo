@@ -2,6 +2,24 @@
 
 jQuery countTo animates countups and countdowns within target DOM elements. 
 
+## Arguments & Options
+
+#### .countTo(target, [options])
+
+##### Arguments
+
+- target - The number that will be counted to.
+- options - *Optional* The object that contains options.
+
+##### Options
+
+| Option | Description |
+| ----- | ----- |
+| decimals | *Integer* Number of decimal places to the right to display. |
+| duration | *Integer* Duration in seconds of the count animation. |
+| min_steps | *Integer* Minimum steps that occur during the animation. |
+| max_steps | *Integer* Maximum steps that occur during the animation. |
+
 #### Simple Example
 ```html
 <span class="timer-a">0</span>
@@ -25,24 +43,6 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 
 </script>
 ```
-
-## Arguments & Options
-
-#### .countTo(target, [options])
-
-##### Arguments
-
-- target - The number that will be counted to.
-- options - *Optional* The object that contains options.
-
-##### Options
-
-| Option | Description |
-| ----- | ----- |
-| decimals | *Integer* Number of decimal places to the right to display. |
-| duration | *Integer* Duration in seconds of the count animation. |
-| min_steps | *Integer* Minimum steps that occur during the animation. |
-| max_steps | *Integer* Maximum steps that occur during the animation. |
 
 ## Usage
 
