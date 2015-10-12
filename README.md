@@ -65,3 +65,6 @@ jQuery countTo animates countups and countdowns within target DOM elements.
 
 ## Requirements
 - jQuery v1.0+
+
+## License
+jQuery-countTo is released under the [MIT License](http://www.opensource.org/licenses/MIT).
