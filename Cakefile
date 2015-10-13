@@ -25,6 +25,10 @@ task 'build', ->
   }).code
   fs.writeFileSync 'build/jquery-countTo.min.js', js
 
+  # compile test script
+  source = fs.readFileSync 'src/test-jquery-countTo.coffee', 'utf8'
+  fs.writeFileSync 'test/test-jquery-countTo.js', coffee.compile source
+
 # command executor
 run = (args...) ->
   for a in args
