@@ -28,7 +28,10 @@
       }
       current = ($this.text() || '').replace(/,/g, '');
       current = parseFloat(current, 10) || 0;
-      target = parseFloat(target, 10) || current;
+      target = parseFloat(target, 10);
+      if (Number.isNaN(target)) {
+        target = current;
+      }
       diff = target - current;
       num_steps = Math.abs(Math.round(diff));
       num_steps = Math.max(num_steps, options.min_steps);

@@ -20,7 +20,8 @@ $.fn.countTo = (target, options = {}) ->
     # get values and the difference between them
     current = ($this.text() or '').replace /,/g, ''
     current = parseFloat(current, 10) or 0
-    target = parseFloat(target, 10) or current
+    target = parseFloat target, 10
+    target = current if Number.isNaN target
     diff = target - current
 
     # figure out how many steps we'll do in our tween
